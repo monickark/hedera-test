@@ -1,0 +1,21 @@
+{
+  "name": "consensus_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.16.6",
+    "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "createAccount": "node scripts/task1/createAccount.js",
+    "nft": "node scripts/task2/nft.js",
+    "contract": "node scripts/task3/smartContract.js",    
+    "scheduleTx": "node scripts/task4/createScheduledTx.js",
+    "consensus": "node scripts/task5/createTopic.js",    
+    "multiSign": "node scripts/task6/multiSignAccount.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
